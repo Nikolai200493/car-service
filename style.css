@@ -1,0 +1,284 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   color: #333333;
+}
+
+
+h1 {
+   letter-spacing: -2px;
+}
+
+/* HEADER Background-color и color */
+#header .navbar {
+   background-color: #232526 !important;
+}
+
+.header-tel a {
+   color: rgba(255, 255, 255, 0.7) !important;
+   text-decoration: none;
+}
+
+.section-tel a {
+   color: #333333;
+   text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: rgba(239, 239, 239, 0.55);
+}
+
+
+/* Слайдер index.html */
+
+#main-section .carousel-item {
+   height: 380px;
+}
+
+#main-section .carousel-item img {
+   height: 400px;
+   object-fit: cover;
+}
+
+/* Слайдеры в примерах работ */
+.card {
+   border: none;
+   border-radius: 0.4rem;
+}
+
+section .carousel-item {
+   height: 250px;
+}
+
+section #section .carousel-item img {
+   height: 250px;
+   width: auto;
+   object-fit: cover;
+}
+
+.examples-icon {
+   color: #333333;
+   border-radius: 50%;
+   background: #5ac392;
+}
+
+.example-price {
+   font-weight: bold;
+   color: #333333;
+}
+
+
+span.border {
+   width: 100% !important;
+   border: 1px solid #c4c4c4 !important;
+   margin: 10px 0 0px 0 !important;
+}
+
+button.btn.btn-primary.btn-lg {
+   border-radius: 5px;
+   font-weight: bold;
+   background-color: #f74645;
+   border-color: #f74645;
+}
+
+button.btn.btn-primary.btn-lg:hover {
+   font-weight: bold;
+   background-color: #d83f3f;
+   border-color: #d83f3f;
+}
+
+
+.main-address-text {
+   margin-left: 20px;
+}
+
+.main-address {
+   position: relative;
+}
+
+.main-address-text::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 10px;
+   width: 20px;
+   height: 20px;
+   background: url(img/location_icon.png) no-repeat;
+   background-size: contain;
+}
+
+
+/* Стили для номера телефона и имейла */
+p.tel-style,
+p.email-style,
+p.instagram-style {
+   font-size: 20px;
+}
+
+.tel-style a,
+.email-style a {
+   color: #e74645;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+
+
+/* ФУТЕР */
+
+.address-footer-text {
+   margin-left: 30px;
+   color: white;
+}
+
+.address-footer {
+   position: relative;
+}
+
+.address-footer-text::before {
+   content: "";
+   position: absolute;
+   top: -4px;
+   left: 2px;
+   width: 25px;
+   height: 25px;
+   background: url(img/location_icon.png) no-repeat;
+   background-size: contain;
+}
+
+.timetable-footer-text {
+   margin-left: 30px;
+   color: white;
+}
+
+.timetable-footer {
+   position: relative;
+}
+
+.timetable-footer-text::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 20px;
+   height: 20px;
+   background: url(img/timetable_icon2.png) no-repeat;
+   background-size: contain;
+}
+
+.tel-footer-text a {
+   margin-left: 15px;
+   color: white;
+}
+
+.tel-footer {
+   position: relative;
+}
+
+.tel-footer-text::before {
+   content: "";
+   position: absolute;
+   top: 7px;
+   left: 0px;
+   width: 20px;
+   height: 20px;
+   background: url(img/tel_icon.png) no-repeat;
+   background-size: contain;
+}
+
+.email-footer-text a {
+   margin-left: 32px;
+   text-decoration: none;
+   color: white;
+}
+
+.email-footer-text a {
+   margin-left: 32px;
+   text-decoration: none;
+   color: white;
+}
+
+.email-footer {
+   position: relative;
+}
+
+.email-footer-text::before {
+   content: "";
+   position: absolute;
+   top: 5px;
+   left: 0px;
+   width: 20px;
+   height: 20px;
+   background: url(img/email_icon.png) no-repeat;
+   background-size: contain;
+}
+
+.insta-footer-text a {
+   margin-left: 32px;
+   text-decoration: none;
+   color: white;
+}
+
+.insta-footer {
+   position: relative;
+}
+
+.insta-footer-text::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 20px;
+   height: 20px;
+   background: url(img/insta.svg) no-repeat;
+   background-size: contain;
+}
+
+
+/* ГАЛЕРЕЯ */
+.thumb .img-gallery {
+   -webkit-filter: grayscale(0);
+   filter: none;
+   border-radius: 5px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   padding: 5px;
+}
+
+.thumb .img-gallery:hover {
+   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
+
+.thumb {
+   padding: 5px;
+}
+
+
+/* Instagram в Contacts */
+.insta-contacts-text a {
+   text-decoration: none;
+   color: #333333;
+   font-size: 1.2rem;
+}
+
+.insta-contacts {
+   position: relative;
+}
+
+.insta-contacts-text::after {
+   content: "";
+   position: absolute;
+   top: -7px;
+   left: 240px;
+   width: 40px;
+   height: 40px;
+   background: url(img/insta.svg) no-repeat;
+   background-size: contain;
+}
+
